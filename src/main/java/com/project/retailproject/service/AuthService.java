@@ -70,6 +70,7 @@ public class AuthService {
         res.setEmail(user.getEmail());
         res.setRole(user.getRole());
         res.setUserName(user.getUserName());
+        res.setUserId(user.getUserId());
         return res;
     }
 
@@ -94,6 +95,7 @@ public class AuthService {
         r.setEmail(u.getEmail());
         r.setRole(u.getRole());
         r.setPhoneNumber(u.getPhoneNumber());
+
         return r;
     }
 }
